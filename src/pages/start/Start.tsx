@@ -1,7 +1,8 @@
-import { PageContainer } from "~/components";
-import { SearchResultList, SearchBanner } from "./components";
-import { type ISearchResultListProps } from "./components/SearchResultList/SearchResultList";
-import { type ISearchBannerProps } from "./components/SearchBanner/SearchBanner";
+import { PageContainer, SearchResultList } from "~/components";
+import SearchBanner, {
+  type ISearchBannerProps,
+} from "~/components/SearchBanner/SearchBanner";
+import { type ISearchResultListProps } from "~/components/SearchResultList/SearchResultList";
 
 export interface IStartPageProps {
   searchBannerProps: ISearchBannerProps;

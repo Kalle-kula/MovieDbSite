@@ -2,15 +2,12 @@
 // API-token: eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0M2Y4OWM1MGNiOWI4ZmY1NzE5MTkxM2FhMTI1NGRlYiIsInN1YiI6IjY1MjJjMmRiYWI1ZTM0MDBmZTMyYWJlNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.exKrnz1XAmnE_4Muwwv6PyxOkdDafRHcSsvjEhRmwe0
 
 import axios from "axios";
-import {
-  type ISearchResponseModel,
-  type ISearchModel,
-} from "../pages/start/types";
+import { type ISearchResponseModel, type ISearchModel } from "~/types";
 import { type IPersonData } from "~/pages/person/Person";
-import { addMissingProps } from "~/pages/start/utils";
+import { addMissingProps } from "~/utils";
 import { type ITitleData } from "~/types";
-import { type ITvData } from "~/pages/tv/types";
-import { getTitleData } from "~/pages/tv/utils";
+import { type ITvData } from "~/types";
+import { getTitleData } from "~/utils";
 
 const apiToken =
   "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0M2Y4OWM1MGNiOWI4ZmY1NzE5MTkxM2FhMTI1NGRlYiIsInN1YiI6IjY1MjJjMmRiYWI1ZTM0MDBmZTMyYWJlNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.exKrnz1XAmnE_4Muwwv6PyxOkdDafRHcSsvjEhRmwe0";

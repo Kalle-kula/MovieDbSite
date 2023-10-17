@@ -5,6 +5,9 @@ import ImageComp from "./Image";
 import PageContainer from "./PageContainer";
 import BannerImage from "./BannerImage";
 import TitleInfo from "./TitleInfo";
+import SearchBanner from "./SearchBanner";
+import SearchResultItem from "./SearchResultItem";
+import SearchResultList from "./SearchResultList";
 
 export {
   Input,
@@ -14,4 +17,7 @@ export {
   PageContainer,
   BannerImage,
   TitleInfo,
+  SearchResultList,
+  SearchResultItem,
+  SearchBanner,
 };

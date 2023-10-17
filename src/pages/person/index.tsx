@@ -14,5 +14,5 @@ export const getServerSideProps = (async (ctx) => {
 export default function Index({
   personData,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
-  return personData ? <Person {...personData} /> : <></>;
+  return personData ? <Person {...personData} /> : false;
 }

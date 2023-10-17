@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 import { search } from "~/api/Service";
-import { type SortOn, type ISearchResponseModel } from "./types";
-import { createSearchModel } from "./utils";
+import { type SortOn, type ISearchResponseModel } from "~/types";
+import { createSearchModel } from "~/utils";
 import Start from "./Start";
 import _ from "lodash";
 

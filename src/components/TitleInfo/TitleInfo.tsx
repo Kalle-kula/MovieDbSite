@@ -60,11 +60,11 @@ const TitleInfo = ({
           )})`}</h2>
           <div className="flex flex-wrap items-center text-lg">
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-teal-500">
-              <p>{`${vote_average.toFixed(1)}/10`}</p>
+              {vote_average && <p>{`${vote_average.toFixed(1)}/10`}</p>}
             </div>
             <div className="font-outline m-2 h-2 w-2 rounded-full bg-white" />
 
-            {genres.map((genre, i) => (
+            {genres?.map((genre, i) => (
               <p className="font-outline mx-1" key={genre.id}>{`${genre.name} ${
                 genres.length === i + 1 ? "" : "|"
               }`}</p>
