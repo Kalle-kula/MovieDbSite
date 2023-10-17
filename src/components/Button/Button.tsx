@@ -13,7 +13,7 @@ const Button = ({ text, onClick, type, disabled, isLoading }: IButtonProps) => {
     <button
       type={type}
       className={twMerge(
-        "flex h-14 cursor-pointer items-center justify-center border border-black bg-white px-10 py-2 hover:bg-slate-200 sm:rounded-lg",
+        "flex h-14 cursor-pointer items-center justify-center border border-black bg-gray-300 px-10 py-2 hover:bg-gray-100 sm:rounded-lg",
         disabled ? "cursor-not-allowed border-opacity-30" : "",
       )}
       disabled={disabled}
