@@ -1,4 +1,4 @@
-# Explore millions of tv, movie-titles or actors using this site started using T3
+# Explore millions of tv, movie-titles or actors using this site.
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
