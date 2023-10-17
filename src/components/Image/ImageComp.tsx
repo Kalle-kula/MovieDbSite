@@ -17,7 +17,7 @@ const ImageComp = ({
   sizes,
 }: IImageProps) => {
   const imageLoader = ({ src }: ImageLoaderProps) =>
-    `http://image.tmdb.org/t/p/w${imageWidth}/${src}`;
+    `https://image.tmdb.org/t/p/w${imageWidth}/${src}`;
   return (
     <Image
       loader={imageWidth ? imageLoader : undefined}

@@ -23,7 +23,7 @@ const TitleInfo = ({
     <div id="tv-page" className="relative z-10 p-2 sm:h-[600px] sm:p-10">
       <BannerImage
         altText="star wars"
-        imageSrc={`http://image.tmdb.org/t/p/original/${backdrop_path}`}
+        imageSrc={`https://image.tmdb.org/t/p/original/${backdrop_path}`}
         className="brightness-50"
       />
       <div className="flex flex-col sm:flex-row">

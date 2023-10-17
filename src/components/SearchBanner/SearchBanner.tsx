@@ -28,7 +28,7 @@ const SearchBanner = ({
     >
       <BannerImage
         altText="star wars"
-        imageSrc="http://image.tmdb.org/t/p/original/iPnH51khswDrYij6XIBHKlAznW.jpg"
+        imageSrc="https://image.tmdb.org/t/p/original/iPnH51khswDrYij6XIBHKlAznW.jpg"
         className="brightness-50 sm:rounded-2xl"
       />
       <div className="flex h-full flex-col justify-between sm:justify-center sm:p-10">

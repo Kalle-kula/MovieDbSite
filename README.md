@@ -1,5 +1,7 @@
 # Explore millions of tv, movie-titles or actors using this site.
 
+Start this app locally by running the command 'npm run dev'
+
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
 ## What's next? How do I make an app with this?
